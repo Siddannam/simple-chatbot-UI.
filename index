@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Voice Chatbot</title>
+  <style>
+    body { font-family: Arial; text-align: center; padding: 50px; }
+    #chat { max-width: 600px; margin: auto; text-align: left; }
+    .user, .bot { margin: 10px 0; }
+    .user { color: blue; }
+    .bot { color: green; }
+    button { padding: 10px 20px; font-size: 18px; }
+  </style>
+</head>
+<body>
+
+<h2>🎤 Voice Chatbot</h2>
+<div id="chat"></div>
+<button onclick="startListening()">🎙 Speak</button>
+
+<script src="app.js"></script>
+</body>
+</html>
